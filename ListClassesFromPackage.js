@@ -1,7 +1,7 @@
 Java.perform(()=>{
         Java.enumerateLoadedClasses({
                 onMatch : function(name, handle){
-                        if (name.includes("<package-name>")){
+                        if (name.includes("<Package Name>")){
                                 console.log(name);
                         }
                 },
