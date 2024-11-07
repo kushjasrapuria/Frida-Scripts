@@ -1,4 +1,5 @@
 Java.perform(()=>{
+        console.log("\n");
         Java.enumerateLoadedClasses({
                 onMatch : function(name, handle){
                         if (name.includes("<Package Name>")){
@@ -6,7 +7,7 @@ Java.perform(()=>{
                         }
                 },
                 onComplete : function(){
-                        console.log("-- Done --")
+                        console.log("-- Done --");
                 }
         });
 });
