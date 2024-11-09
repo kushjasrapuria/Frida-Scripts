@@ -1,5 +1,4 @@
 // Edit for desired program for which you want to list functions for
-
 const module = Module.load("<Program Name>");
 
 var functions = module.enumerateImports();
