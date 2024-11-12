@@ -1,4 +1,4 @@
-// frida --codeshare kushjasrapuria/antidebugbypass
+// frida --codeshare kushjasrapuria/antidebugbypass -f <YOUR_BINARY>
 
 Java.perform(function() {
     var Debug = Java.use('android.os.Debug');
