@@ -1,3 +1,5 @@
+// frida --codeshare kushjasrapuria/conscrypt-ssl-bypass -f <YOUR_BINARY>
+
 Java.perform(function() {
 
     var array_list = Java.use("java.util.ArrayList");
